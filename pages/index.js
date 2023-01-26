@@ -14,12 +14,12 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-   
+      <div className='md:max-w-[1040px] sm:mx-5 md:mx-auto box-border'>
       <Section1 />
       <Checkout />
       <Explore />
       <Booknote />
- 
+      </div>
     </main>
 
   );
