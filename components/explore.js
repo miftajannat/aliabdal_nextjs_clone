@@ -4,7 +4,7 @@
 
 export default function explore() {
   return (
-    <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-x-20 mt-20'>
+    <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-x-20 mt-20 sm:gap-y-12 md:gap-y-0'>
 
 
 
