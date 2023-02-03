@@ -7,12 +7,12 @@ export default function Section1() {
         {/* <div className='flex justify-center items-center space-x-10'> */}
 
         <div>
-          <h1 className='text-5xl mb-3 font-sans'>Hey friends —</h1>
-          <p className='text-3xl mb-2'>
-            I’m Mohammad Badhruddouza Khan.
+          <h1 className='text-4xl mb-3 font-bold font-sans text-gray-800'>Hello World —</h1>
+          <p className='text-2xl mb-2'>
+            I’m Mohammad Badhruddouza Khan, a Biomedical Engineer, Data Analyst, and Machine Learning Practitioner.
           </p>
           <p className='text-xl text-gray-700'>
-          I’m a Biomedical Engineer, Data Analyst, and Machine Learning Practitioner. I have been working on Machine Learning for 4 years and Data Analysis for 1 years.
+          I have been working on Machine Learning for 4 years and Data Analysis for 1 years.
           </p>
           <p className='text-xl mt-3 text-gray-700 justify'>
             Over at <a href="https://mlboss.substack.com/" className='text-blue-500 underline font-semibold font-sans'>MLBOSS</a> - my weekly AI related newsletter - We explore the fascinating world of ML and AI.. 

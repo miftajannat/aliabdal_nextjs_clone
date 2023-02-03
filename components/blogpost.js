@@ -10,13 +10,11 @@ const Blog = () => {
 
   return (
     <div className='mb-20 mt-20'>
-      <div className='grid grid-cols-2'>
-        <div>
-          <h1 className='text-4xl font-bold font-sans text-gray-800'>
-            Read my AI related Blogs
-          </h1>
-          <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
-        </div>
+      <div>
+        <h1 className='text-4xl font-bold font-sans text-gray-800'>
+          Read my AI related Blogs
+        </h1>
+        <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
       </div>
 
       <div className='flex justify-center items-center'>
