@@ -1,12 +1,13 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import Checkout from '@/components/checkout';
-import Explore from '@/components/explore';
-import Section1 from '@/components/section1';
-import Booknote from '@/components/booknote';
-
-
-
+import Header from "@/components/header";
+import Checkout from "@/components/checkout";
+import Explore from "@/components/explore";
+import Section1 from "@/components/section1";
+import BookNote from "@/components/booknote";
+import NavBar from "@/components/navbar";
+import BlogPost from "@/components/blogpost";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -14,13 +15,16 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
+
       <div className='md:max-w-[1040px] sm:mx-5 md:mx-auto box-border'>
-      <Section1 />
-      <Checkout />
-      <Explore />
-      <Booknote />
+        <NavBar />
+        <Section1 />
+        <Checkout />
+        <Explore />
+        <BookNote />
+        <BlogPost />
+        <Footer />
       </div>
     </main>
-
   );
 }

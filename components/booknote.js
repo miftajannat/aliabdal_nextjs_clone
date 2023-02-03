@@ -1,56 +1,53 @@
+import React from "react";
+import bookdata from "../data/bookdata";
+import Link from "next/link";
 
+const BookNote = () => {
+  const latestBooks = bookdata.slice(0, 2);
 
-export default function booknote() {
   return (
-    <>
-  <div>
-        <div class='pb-6'>
-          <div class='text-4xl font-bold'>
-            Explore
-            <hr class='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
-          </div>
-        </div>
-        <div class='flex sm:flex-col md:flex-row gap-x-20'>
+    <div className='mt-20'>
+            <div className='grid grid-cols-2'>
       <div>
-      <div class='mb-4'>
-          <div class='flex justify-center'>
-            <img src='https://substackcdn.com/image/fetch/w_336,h_255,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8293ddfc-9979-4266-919b-bf630b39992d_500x500.jpeg' class='mr-3 h-[226px] w-[150px] shadow-xl box-border border-2 transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg' alt='Book Image'/>
-            <div class='mx-3 w-full'>
-              <h1 class='font-bold'>Die With Zero</h1>
-              <h2 className="pb-2">Summary With Notes and Highlights</h2>
-              <p>
-              A practical guide to getting the most out of your money – and your life. Including highlights, recommendations, and a full summary of the book.
-
-              </p>
-            </div>
-          </div>
-        </div>
-
-
+        <h1 className='text-4xl font-bold font-sans text-gray-800'>Read my Book Summaries</h1>
+        <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
+      </div>
       </div>
 
-      <div>
-      <div class='mb-4'>
-          <div class='flex justify-center'>
-            <img src='https://substackcdn.com/image/fetch/w_336,h_255,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8293ddfc-9979-4266-919b-bf630b39992d_500x500.jpeg' class='mr-3 h-[226px] w-[150px] shadow-xl box-border border-2 transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg' alt='Book Image'/>
-            <div class='w-full'>
-            <h1 class='font-bold'>Die With Zero</h1>
-              <h2 className="pb-2">Summary With Notes and Highlights</h2>
-              <p>
-              A practical guide to getting the most out of your money – and your life. Including highlights, recommendations, and a full summary of the book.
+      <div className='grid grid-cols-1  md:grid-cols-2 py-2 gap-x-16 md:gap-y-0 sm:gap-y-16'>
+        {latestBooks.map((book) => (
+          <div key={book.id}>
+              <a href={book.url}>
+            <div className='flex justify-center gap-4'>
+              <img
+                className='mr-3 h-[226px] w-[150px] shadow-xl rounded-md box-border transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg'
+                src={book.image}
+                alt={book.title}
+              />
 
-              </p>
+              <div className='font-mono items-center h-[225px] overflow-hidden'>
+                <p className='text-2xl font-semibold text-blue-500'>{book.title}</p>
+                <p className='pb-2 text-lg text-gray-600'>{book.author}</p>
+                <p>{book.description}</p>
+              </div>
             </div>
+            </a>
           </div>
-        </div>
-
+        ))}
       </div>
+
+
+      {/* <div className='flex justify-end mt-6'>
+        <Link href='/book'>
+        <button className='bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded'>
+          Show More
+        </button>
+        </Link>
+      </div> */}
+
+
     </div>
-  </div>
+  );
+};
 
-    </>
-  )
-}
-
-
-
+export default BookNote;
