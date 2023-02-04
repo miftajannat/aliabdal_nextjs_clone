@@ -11,7 +11,7 @@ const BookNote = () => {
         <h1 className='text-4xl font-bold font-sans text-gray-800'>
           Read my Book Summaries
         </h1>
-        <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
+        <hr className='border-2 border-blue-400 rounded-md border-solid w-[87px] my-4' />
       </div>
 
       <div className='grid grid-cols-1  md:grid-cols-2 py-2 gap-x-16 md:gap-y-0 sm:gap-y-16'>
@@ -26,7 +26,7 @@ const BookNote = () => {
                 />
 
                 <div className='font-mono items-center h-[225px] overflow-hidden'>
-                  <p className='text-2xl font-semibold text-blue-500'>
+                  <p className='text-2xl font-semibold text-blue-400'>
                     {book.title}
                   </p>
                   <p className='pb-2 text-lg text-gray-600'>{book.author}</p>

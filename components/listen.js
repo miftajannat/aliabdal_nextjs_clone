@@ -8,7 +8,7 @@ export default function listen() {
         <div className='pb-6'>
           <div className='text-4xl font-bold lg:pl-64 pl-4'>
             Book Note
-            <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
+            <hr className='border-2 border-blue-400 rounded-md border-solid w-[87px] my-4' />
           </div>
         </div>
 

@@ -15,10 +15,10 @@ export default function Section1() {
           I have been working on Machine Learning for 4 years and Data Analysis for 1 years.
           </p>
           <p className='text-xl mt-3 text-gray-700 justify'>
-            Over at <a href="https://mlboss.substack.com/" className='text-blue-500 underline font-semibold font-sans'>MLBOSS</a> - my weekly AI related newsletter - We explore the fascinating world of ML and AI.. 
+            Over at <a href="https://mlboss.substack.com/" className='text-blue-400 underline font-semibold font-sans'>MLBOSS</a> - my weekly AI related newsletter - We explore the fascinating world of ML and AI.. 
           </p>
           <p className='text-xl mt-3 text-gray-700 justify'>
-            And over at <a href="https://booknote.substack.com/" className='text-blue-500 underline font-semibold font-sans'>Book Note</a> - our weekly book related newsletter - We share our thoughts,
+            And over at <a href="https://booknote.substack.com/" className='text-blue-400 underline font-semibold font-sans'>Book Note</a> - our weekly book related newsletter - We share our thoughts,
             actionable takeaways and favorite quotes of the books. 
           </p>
         </div>

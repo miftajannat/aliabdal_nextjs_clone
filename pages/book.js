@@ -38,7 +38,7 @@ const Book = () => {
                 />
 
                 <div className='font-mono items-center h-[225px] overflow-hidden'>
-                  <p className='text-2xl font-semibold text-blue-500'>
+                  <p className='text-2xl font-semibold text-blue-400'>
                     {book.title}
                   </p>
                   <p className='pb-2 text-lg text-gray-600'>{book.author}</p>

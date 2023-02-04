@@ -5,7 +5,7 @@ export default function checkout() {
     <div className='mt-20'>
     <div className='text-4xl font-bold font-sans text-gray-800'>
     Check out my Works
-    <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
+    <hr className='border-2 border-blue-400 rounded-md border-solid w-[87px] my-4' />
     {/* <Image
       src={"/images/checkout.svg"}
       width={10}

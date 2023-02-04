@@ -12,7 +12,7 @@ export default function explore() {
       <div className='pb-6'>
           <div className='text-4xl font-bold font-sans text-gray-800'>
             Explore
-            <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
+            <hr className='border-2 border-blue-400 rounded-md border-solid w-[87px] my-4' />
           </div>
       </div>
         <div className='flex-col sm:w-full justify-center'>
@@ -61,7 +61,7 @@ export default function explore() {
       <div className='pb-5'>
           <div className='text-4xl font-bold font-sans text-gray-800'>
             Store
-            <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
+            <hr className='border-2 border-blue-400 rounded-md border-solid w-[87px] my-4' />
           </div>
       </div>
         <div className='flex-col sm:w-full justify-center'>
