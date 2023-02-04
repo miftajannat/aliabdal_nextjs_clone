@@ -21,32 +21,29 @@ export default function checkout() {
         <div className='text-5xl mt-3 mb-2'>📖</div>
         <h2 className='text-2xl mt-5 font-bold font-sans text-gray-800'>Research Papers</h2>
         <p className='mt-5'>
-          How to study effectively for exams, with the best
-          evidence-basedtechniques.
+        Discover insights and knowledge through the collection of my research papers.
         </p>
       </a>
 
       <a
-        href='/projects'
+        href='/project'
         className='bg-white overflow-hidden transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-md shadow-lg rounded-xl box-border h-64  p-4 border-2 my-4 '
       >
         <div className='text-5xl mt-3 mb-2'>🧑‍💻</div>
         <h1 className='text-2xl mt-5 font-bold font-sans text-gray-800'>Projects</h1>
         <p className='mt-5'>
-          How to study effectively for exams, with the best
-          evidence-basedtechniques.
+        Explore my portfolio of innovative projects, complete with code and live demos.
         </p>
       </a>
 
       <a
-        href='https://aliabdaal.com/productivity/'
+        href='https://buffyhridoy.github.io/static/media/resume.7180e459.pdf'
         className=' bg-white overflow-hidden transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-md shadow-lg box-border h-64 p-4 border-2 rounded-xl my-4'
       >
         <div className='text-5xl mt-3 mb-2'>📑</div>
         <h2 className='text-2xl mt-5 font-bold font-sans text-gray-800'>Resume</h2>
         <p className='mt-5'>
-          How to study effectively for exams, with the best
-          evidence-basedtechniques.
+        Access my current resume to gain insight into my expertise and experiences.
         </p>
       </a>
     </div>
