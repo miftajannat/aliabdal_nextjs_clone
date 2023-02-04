@@ -2,6 +2,7 @@ import React from "react";
 import bookdata from "../data/bookdata";
 import Link from "next/link";
 
+
 const BookNote = () => {
   const latestBooks = bookdata.slice(0, 2);
 
@@ -9,7 +10,7 @@ const BookNote = () => {
     <div className='mt-20'>
       <div>
         <h1 className='text-4xl font-bold font-sans text-gray-800'>
-          Read my Book Summaries
+          Latest Book Summaries
         </h1>
         <hr className='border-2 border-blue-400 rounded-md border-solid w-[87px] my-4' />
       </div>

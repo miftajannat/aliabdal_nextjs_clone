@@ -12,7 +12,7 @@ const Blog = () => {
     <div className='mb-20 mt-20'>
       <div>
         <h1 className='text-4xl font-bold font-sans text-gray-800'>
-          Read my AI related Blogs
+          Latest AI Blogs
         </h1>
         <hr className='border-2 border-blue-400 rounded-md border-solid w-[87px] my-4' />
       </div>

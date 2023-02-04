@@ -15,14 +15,15 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-
-      <div className='md:max-w-[1040px] sm:mx-5 md:mx-auto box-border'>
-        <NavBar />
-        <Section1 />
-        <Checkout />
-        <Explore />
-        <BookNote />
-        <BlogPost />
+      <div>
+        <div className='md:max-w-[1040px] sm:mx-5 md:mx-auto box-border'>
+          <NavBar />
+          <Section1 />
+          <Checkout />
+          <Explore />
+          <BookNote />
+          <BlogPost />
+        </div>
         <Footer />
       </div>
     </main>

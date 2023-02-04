@@ -13,7 +13,6 @@ const Project = () => {
         <hr className='border-2 border-blue-500 rounded-md border-solid w-[87px] my-4' />
       </div>
 
-
       <div className='grid grid-cols-1  md:grid-cols-2 py-2 gap-16 pb-20'>
         {projectdata.map((project) => (
           <div key={project.id}>
@@ -26,16 +25,19 @@ const Project = () => {
                 />
 
                 <div className='items-center h-[225px] overflow-hidden'>
-                  <p className='text-2xl font-semibold pb-1'>
-                    {project.title}
+                  <p className='text-2xl font-semibold pb-1'>{project.title}</p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Porro, sint.
                   </p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sint.</p>
-                  <p className="pb-3">{project.skill}</p>
+                  <p className='pb-3'>{project.skill}</p>
 
-                  <p className='text-xl font-bold text-blue-500 underline'><a href={project.demo}>Demo</a></p>
-                  <p className="text-xl text-blue-500 font-bold underline"><a href={project.code}>Code</a></p>
-                 
-                  
+                  <p className='text-xl font-bold text-blue-500 underline'>
+                    <a href={project.demo}>Demo</a>
+                  </p>
+                  <p className='text-xl text-blue-500 font-bold underline'>
+                    <a href={project.code}>Code</a>
+                  </p>
                 </div>
               </div>
             </div>
