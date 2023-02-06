@@ -71,6 +71,7 @@ export default function explore() {
         <div className='flex-col sm:w-full justify-center'>
           <div className='sm:h-auto w-auto'>
             <div className='flex justify-center items-center '>
+              <a href="https://buffyhridoy.github.io/static/media/resume.7180e459.pdf">
               <div className='mx-2 mb-2'>
                 <h1 className='font-semibold text-lg text-gray-600 font-sans'>
                   📃My Resume Template
@@ -81,6 +82,7 @@ export default function explore() {
                   skills, and accomplishments in an attractive way.
                 </p>
               </div>
+              </a>
             </div>
             <hr className='py-1' />
           </div>

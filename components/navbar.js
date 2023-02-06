@@ -4,6 +4,7 @@ import { useState } from 'react';
 import image from '../public/images/signature.svg'
 import navmenu from '../public/images/navmenu.svg'
 import Dropdown from 'components/dropdown.js'
+import Store from 'components/store.js'
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -48,13 +49,22 @@ function NavBar() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex bg-white">
                 <li className="pb-6 text-black py-2 md:px-2 text-center border-b-2 md:border-b-0">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
-                    About
+                  <Link href="/blog" onClick={() => setNavbar(!navbar)}>
+                    AI Blogs
                   </Link>
                 </li>
-                <li className="pb-6 text-black py-2 px-2 text-center  border-b-2 md:border-b-0">
+                <li className="pb-6 text-black py-2 md:px-2 text-center border-b-2 md:border-b-0">
+                  <Link href="/book" onClick={() => setNavbar(!navbar)}>
+                    Book Summaries
+                  </Link>
+                </li>
+                <li className="pb-6 text-black py-2 px-2 text-center border-b-2 md:border-b-0">
                  <Dropdown/>
                 </li>
+                <li className="pb-6 text-black py-2 px-2 text-center  border-b-2 md:border-b-0">
+                 <Store/>
+                </li>
+
 
               </ul>
             </div>
