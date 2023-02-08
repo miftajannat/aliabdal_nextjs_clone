@@ -48,6 +48,4 @@ const Blog = () => {
 
 export default Blog;
 
-{
-  /* <button className='bg-blue-500 hover:bg-blue-700 bg-transparent text-lg font-medium text-primary rounded-lg px-5 py-2 border border-primary hover:bg-primary hover:text-white'> */
-}
+

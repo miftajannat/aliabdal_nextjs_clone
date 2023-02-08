@@ -16,11 +16,7 @@ const Book = () => {
             Sign up below to join a growing community <br /> of more than 6000
             friendly readers.
           </p>
-          <iframe
-            // className="md:px-96 sm:px-0 mb-12"
-            height={100}
-            src='https://booknote.substack.com/embed/'
-          />
+          <iframe height={100} src='https://booknote.substack.com/embed/' />
         </div>
 
         <div className='text-4xl font-bold pt-10'>

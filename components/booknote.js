@@ -1,6 +1,6 @@
 import React from "react";
 import bookdata from "../data/bookdata";
-import Link from "next/link";
+
 
 
 const BookNote = () => {
@@ -38,14 +38,6 @@ const BookNote = () => {
           </div>
         ))}
       </div>
-
-      {/* <div className='flex justify-end mt-6'>
-        <Link href='/book'>
-        <button className='bg-blue-700 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded'>
-          Show More
-        </button>
-        </Link>
-      </div> */}
     </div>
   );
 };

@@ -14,11 +14,7 @@ const Blog = () => {
           <p className='text-center text-gray-800'>
             Let's explore the fascinating world of ML and AI..
           </p>
-          <iframe
-            // className="md:px-96 sm:px-0 mb-12"
-            height={100}
-            src='https://mlboss.substack.com/embed/'
-          />
+          <iframe height={100} src='https://mlboss.substack.com/embed/' />
         </div>
 
         <div className='text-4xl font-bold pt-10'>

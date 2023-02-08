@@ -61,57 +61,6 @@ export default function explore() {
           <hr className='py-1' />
         </div>
           )}
-        {/* <div className='sm:h-auto w-auto'>
-            <div className='flex justify-center items-center '>
-              <a href="https://buffyhridoy.github.io/static/media/resume.7180e459.pdf">
-              <div className='mx-2 mb-2'>
-                <h1 className='font-semibold text-lg text-gray-600 font-sans'>
-                  📃My Resume Template
-                </h1>
-                <p className='text-sm text-gray-800 hover:text-gray-500 pb-2'>
-                  My LaTeX resume template presents a structured and
-                  professional format, showcasing education, work experience,
-                  skills, and accomplishments in an attractive way.
-                </p>
-              </div>
-              </a>
-            </div>
-            <hr className='py-1' />
-          </div>
-          <div className='sm:h-auto w-auto'>
-            <a
-              href='https://books2read.com/u/bpyW0k'
-              className='flex justify-center items-center'
-            >
-              <div className='m-2'>
-                <h1 className='font-semibold text-lg text-gray-600 font-sans'>
-                  📘My Object Detection Book
-                </h1>
-                <p className='text-sm text-gray-800 hover:text-gray-500 pb-2'>
-                  "Object Detection - Evolution and Advancements" covers the
-                  historical development and latest innovations in object
-                  detection technology.
-                </p>
-              </div>
-            </a>
-            <hr className='py-1' />
-          </div>
-
-          <div className='sm:h-auto w-auto'>
-            <div className='flex justify-center items-center'>
-              <div className='m-2'>
-                <h1 className='font-semibold text-lg text-gray-600 font-sans'>
-                  📒Knowledge Database Notion Template
-                </h1>
-                <p className='text-sm text-gray-800 hover:text-gray-500 pb-2'>
-                  A pre-designed, customizable template for individuals or teams
-                  looking to streamline their knowledge management and
-                  improve productivity.
-                </p>
-              </div>
-            </div>
-            <hr className='py-1' />
-          </div> */}
         </div>
       </div>
           </div>

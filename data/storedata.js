@@ -2,7 +2,7 @@ const storedata =[
     {
         id:1,
         title:' 📃My Resume Template',
-        description:'My LaTeX resume template presents a structured and professional format, showcasing education, work experience, skills, and accomplishments in an attractive way',
+        description:'My LaTeX resume template presents a structured and professional format, showcasing education, work experience, skills, and accomplishments in an attractive way.',
         url:'https://buffyhridoy.github.io/static/media/resume.7180e459.pdf'
     },
     {
@@ -14,7 +14,7 @@ const storedata =[
     {
         id:3,
         title:'📒Knowledge Database Notion Template',
-        description:'Stay informed with the latest book insights and key takeaways through summaries and quotes',
+        description:'Stay informed with the latest book insights and key takeaways through summaries and quotes.',
         url:'https://booknote.substack.com/'
     }
 ]
