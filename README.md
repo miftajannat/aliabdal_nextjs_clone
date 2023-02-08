@@ -55,12 +55,12 @@ If you want to change the name "Al Blogs". You must open navbar.js then change t
 
 Open the file blogData.js in your code editor.
 Modify the existing objects in the blogData array with your own information. Each object represents a blog post and should include the following properties:
-        id: A unique identifier for each blog post.
-        title: The title of the blog post.
-        description: A brief description of the blog post.
-        date: The date when the blog post was published.
-        image: The URL of an image that represents the blog post.
-        url: The URL of the blog post on your blog.
+        - id: A unique identifier for each blog post.
+        - title: The title of the blog post.
+        - description: A brief description of the blog post.
+        - date: The date when the blog post was published.
+        - image: The URL of an image that represents the blog post.
+        - url: The URL of the blog post on your blog.
     Save the changes you made to the file.
     Your modified blog data will be updated in the website.
 
@@ -74,12 +74,12 @@ You can change "Latest Book Summaries" in booknote.js file. Then change your boo
 
  Open the file bookdata.js in your code editor.
  Modify the existing objects in the bookdata array with your own information. Each object represents a book and should include the following properties:
-        id: A unique identifier for each book.
-        title: The title of the book.
-        author: The author of the book.
-        description: A brief description of the book.
-        url: The URL of the book review or summary on your blog.
-        image: The URL of an image that represents the book.
+        - id: A unique identifier for each book.
+        - title: The title of the book.
+        - author: The author of the book.
+        - description: A brief description of the book.
+        - url: The URL of the book review or summary on your blog.
+        - image: The URL of an image that represents the book.
     Save the changes you made to the file.
     Your modified book data will be updated in the website.
 
@@ -91,11 +91,11 @@ Note: Make sure that you update the id property in a manner that ensures the uni
 
 Open the file exploreData.js in your code editor.
 Modify the existing objects in the exploreData array with your own information. Each object represents a category and should include the following properties:
-    id: A unique identifier for each category.
-    icon: A symbol or icon that represents the category.
-    title: The title of the category.
-    description: A brief description of the category.
-    url: The URL of the category.
+    - id: A unique identifier for each category.
+    - icon: A symbol or icon that represents the category.
+    - title: The title of the category.
+    - description: A brief description of the category.
+    - url: The URL of the category.
     Save the changes you made to the file.
     Your modified explore data will be updated in the website.
 
@@ -109,12 +109,12 @@ You can change project page title "Project" in project.js file.
 
 Open the file projectData.js in your code editor.
 Modify the existing objects in the projectData array with your own information. Each object represents a project and should include the following properties:
-    id: A unique identifier for each project.
-    title: The title of the project.
-    demo: The URL to a demo of the project.
-    code: The URL to the code of the project.
-    skill: A list of technologies used in the project.
-    image: The URL of an image that represents the project.
+    - id: A unique identifier for each project.
+    - title: The title of the project.
+    - demo: The URL to a demo of the project.
+    - code: The URL to the code of the project.
+    - skill: A list of technologies used in the project.
+    - image: The URL of an image that represents the project.
 
     Save the changes you made to the file.
     Your modified project data will be updated in the website.
@@ -129,9 +129,9 @@ Firstly you have to change your certificate image in image folder. Then you can 
 
 Open the file courseradata.js in your code editor.
 Modify the existing objects in the courseradata array with your own information. Each object represents a Coursera course and should include the following properties:
-        id: A unique identifier for each course.
-        image: The path to the image that represents the course.
-        url: The URL of the course on Coursera.
+        - id: A unique identifier for each course.
+        - image: The path to the image that represents the course.
+        - url: The URL of the course on Coursera.
     Save the changes you made to the file.
     Your modified coursera data will be updated in the website.
 
@@ -143,10 +143,10 @@ Note: Make sure that you update the id property in a manner that ensures the uni
 
 Open the file storedata.js in your code editor.
 Modify the existing objects in the storedata array with your own information. Each object represents a store item and should include the following properties:
-        id: A unique identifier for each item.
-        title: The title of the item.
-        description: A brief description of the item.
-        url: The URL of the item.
+        - id: A unique identifier for each item.
+        - title: The title of the item.
+        - description: A brief description of the item.
+        - url: The URL of the item.
     Save the changes you made to the file.
     Your modified store data will be updated in the website.
 
