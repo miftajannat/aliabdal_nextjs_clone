@@ -21,7 +21,7 @@ function NavBar() {
                   </h2>
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="md:hidden">
+              <div className="md:hidden ">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
@@ -43,11 +43,23 @@ function NavBar() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center pb-3 md:block md:pb-0 ${
                 navbar ? 'p-12 md:p-0 block' : 'hidden'
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex bg-white">
+
+              {/* <ul className=" sm:right-2 md:right-0 sm:w-[120px] md:w-0 mt-2  rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none md:h-auto md:items-center md:justify-center md:flex bg-white"> */}
+                
+              <li className="pb-6 text-black py-2 md:px-2 text-center border-b-2 md:border-b-0">
+                  <Link href="/" onClick={() => setNavbar(!navbar)}>
+                    About
+                  </Link>
+                </li>
+
+              <li className="pb-6 text-black py-2 px-2 text-center border-b-2 md:border-b-0">
+                 <Dropdown/>
+                </li>
                 <li className="pb-6 text-black py-2 md:px-2 text-center border-b-2 md:border-b-0">
                   <Link href="/blog" onClick={() => setNavbar(!navbar)}>
                     AI Blogs
@@ -58,9 +70,7 @@ function NavBar() {
                     Book Summaries
                   </Link>
                 </li>
-                <li className="pb-6 text-black py-2 px-2 text-center border-b-2 md:border-b-0">
-                 <Dropdown/>
-                </li>
+
                 <li className="pb-6 text-black py-2 px-2 text-center  border-b-2 md:border-b-0">
                  <Store/>
                 </li>
