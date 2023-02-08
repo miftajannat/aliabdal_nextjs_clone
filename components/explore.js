@@ -1,6 +1,5 @@
-import exploredata from '../data/exploredata'
-import storedata from '../data/storedata';
-
+import exploredata from "../data/exploredata";
+import storedata from "../data/storedata";
 
 export default function explore() {
   return (
@@ -13,26 +12,25 @@ export default function explore() {
           </div>
         </div>
         <div className='flex-col sm:w-full justify-center'>
-{
-  exploredata.map((explore) =>
-  <div key={explore.id} className='bg-gray-100 shadow-md box-border mb-4 transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 sm:h-auto w-auto'>
-  <a
-    href={explore.url}
-    className='flex justify-center items-center'
-  >
-    <div className='text-3xl m-4'>{explore.icon}</div>
-    <div className='m-2 hover:text-gray-600'>
-      <h1 className='font-bold text-lg font-sans'>
-      {explore.title}
-      </h1>
-      <p className='text-sm'>
-      {explore.description}
-      </p>
-    </div>
-  </a>
-</div>
- )
-}
+          {exploredata.map((explore) => (
+            <div
+              key={explore.id}
+              className='bg-gray-100 shadow-md box-border mb-4 transition-colors duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg py-2 sm:h-auto w-auto'
+            >
+              <a
+                href={explore.url}
+                className='flex justify-center items-center'
+              >
+                <div className='text-3xl m-4'>{explore.icon}</div>
+                <div className='m-2 hover:text-gray-600'>
+                  <h1 className='font-bold text-lg font-sans'>
+                    {explore.title}
+                  </h1>
+                  <p className='text-sm'>{explore.description}</p>
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -45,24 +43,25 @@ export default function explore() {
         </div>
 
         <div className='flex-col sm:w-full justify-center'>
-          {storedata.map((store) =>
-          <div key={store.id} className='sm:h-auto w-auto'>
-          <div className='flex justify-center items-center '>
-            <a href="https://buffyhridoy.github.io/static/media/resume.7180e459.pdf">
-            <div className='mx-2 mb-2'>
-              <h1 className='font-semibold text-lg text-gray-600 font-sans'>
-                {store.title}
-              </h1>
-              <p className='text-sm text-gray-800 hover:text-gray-500 pb-2'>{store.description}
-              </p>
+          {storedata.map((store) => (
+            <div key={store.id} className='sm:h-auto w-auto'>
+              <div className='flex justify-center items-center '>
+                <a href='https://buffyhridoy.github.io/static/media/resume.7180e459.pdf'>
+                  <div className='mx-2 mb-2'>
+                    <h1 className='font-semibold text-lg text-gray-600 font-sans'>
+                      {store.title}
+                    </h1>
+                    <p className='text-sm text-gray-800 hover:text-gray-500 pb-2'>
+                      {store.description}
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <hr className='py-1' />
             </div>
-            </a>
-          </div>
-          <hr className='py-1' />
-        </div>
-          )}
+          ))}
         </div>
       </div>
-          </div>
+    </div>
   );
 }

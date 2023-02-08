@@ -15,12 +15,12 @@ export default function Home() {
       </Head>
       <div>
         <div className='md:max-w-[1040px] sm:mx-5 md:mx-auto box-border'>
-          <NavBar />
-          <Section1 />
-          <Checkout />
-          <Explore />
-          <BookNote />
-          <BlogPost />
+          <NavBar/>
+          <Section1/>
+          <Checkout/>
+          <Explore/>
+          <BookNote/>
+          <BlogPost/>
         </div>
         <Footer />
       </div>

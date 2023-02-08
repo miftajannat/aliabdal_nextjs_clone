@@ -1,8 +1,6 @@
 import React from "react";
 import bookdata from "../data/bookdata";
 
-
-
 const BookNote = () => {
   const latestBooks = bookdata.slice(0, 2);
 

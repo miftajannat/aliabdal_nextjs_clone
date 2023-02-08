@@ -1,8 +1,8 @@
 import React from "react";
 import blogData from "../data/blogdata";
-import Link from "next/link";
 
 const Blog = () => {
+  //if you want to use state then use this code
   // const [blogs, setBlogs] = React.useState(blogData);
   // const latestTwoBlogs = blogs.slice(0, 3);
 
