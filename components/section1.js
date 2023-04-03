@@ -3,14 +3,14 @@ import Image from "next/image";
 export default function Section1() {
   return (
     <>
-      <div className='flex md:flex-row sm:flex-col sm:w-full justify-center items-center lg:space-x-48 md:space-x-20 pt-14'>
+      <div className='flex md:flex-row sm:flex-col sm:w-full justify-center items-center lg:space-x-35 md:space-x-20 pt-14'>
         <div>
-          <h1 className='text-4xl mb-3 font-bold font-sans text-gray-800'>
+          <h1 className='text-5xl mb-3 font-bold font-sans text-gray-800'>
             Hello World —
           </h1>
-          <p className='text-2xl mb-2'>
-            I’m Mohammad Badhruddouza Khan, a Biomedical Engineer, Data Analyst,
-            and Machine Learning Practitioner.
+          <p className='text-3xl mb-2'>
+            I’m Mohammad Badhruddouza Khan, a Data Analyst, Machine Learning Practitioner
+            and a Biomedical Engineer.
           </p>
           <p className='text-xl text-gray-700'>
             I have been working on Machine Learning for 4 years and Data
@@ -40,10 +40,10 @@ export default function Section1() {
           </p>
         </div>
         <Image
-          src={"/images/buf.jpg"}
+          src={"/images/buffy3.jpg"}
           width={250}
           height={150}
-          className='sm:w-[300px] md:w-[250px] sm:mt-8 md:mt-0'
+          className='sm:w-[300px] md:w-[260px] sm:mt-8 md:mt-0 rounded-2xl'
         />
       </div>
     </>
